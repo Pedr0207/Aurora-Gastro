@@ -27,7 +27,17 @@ box-sizing: border-box;
 --font-body:   "Inter", sans-serif;
 
 
+.btn-secondary, .btn-primary{
+  padding: 12px 30px;
+  color: var(--color-secundary-white);
+  border-radius: 15px 3px;
+  text-decoration: none;
+  font-family: var(--font-title);
+}
 
+.btn-secondary{
+  background-color: var(--color-primary-orange);
+}
 
 
 
